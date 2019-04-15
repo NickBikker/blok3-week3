@@ -10,13 +10,45 @@
 <body>
 <?php include "navbar.php"?>
 <?php include "carousel.php"?>
-<div class="aboutme-text">
-    <h1>About me</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-    </p>
+<div class="aboutme-text row" >
+    <div class="col-md-4">
+    <img src="img/aboutpic.jpg" id="loops">
+    </div>
+    <div class="col-md-6">
+        <h1>About me</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        </p>
+    </div>
+
 </div>
-<img src="img/aboutpic.jpg" id="loops">
+<div class="portfolio_section">
+    <h1 id="portfolio_title">Portfolio</h1>
+    <hr>
+    <?php include "gallery.php"?>
+    <h1 id="portfolio_title">Opleidingen</h1>
+    <hr>
+    <div class="row">
+        <div class="wrapper col-md-3">
+            <h2>Windroos</h2>
+            <img src="img/windroos.png">
+            <h3>Economie</h3>
+            <p id="text">Van 2014-2016</p>
+        </div>
+        <div class="wrapper col-md-3">
+            <h2>Da Vinci</h2>
+            <img src="img/DV.jpg" class="dv">
+            <h3>ICT beheer</h3>
+            <p id="text">Van 2016-2018</p>
+        </div>
+        <div class="wrapper col-md-3">
+            <h2>Da Vinci</h2>
+            <img src="img/DV.jpg" class="dv">
+            <h3>Applicatieontwikkeling</h3>
+            <p id="text">Van 2018-Heden</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 

@@ -15,6 +15,7 @@ $min = Date("i");
                 <li class="nav-item">Home</li>
                 <li class="nav-item">About me</li>
                 <li class="nav-item">Portfolio</li>
+                <li class="nav-item">Contact</li>
             </ul>
         </div>
     </div>
