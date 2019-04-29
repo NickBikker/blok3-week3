@@ -25,10 +25,10 @@
 	if (!$voornaam) {
 	} 
 	else {
-		echo "<br>"."<br>"."Voornaam: ".$voornaam."<br>";
-		echo "Achternaam: ".$achternaam."<br>";
-		echo "E-mail: ".$mail."<br>";
-		echo "Telefoonnummer: ".$telefoon."<br>";
-		echo "Vraag: ".$vraag."<br>";
-	}
+        echo "<br>" . "<br>" . "Voornaam: " . $voornaam . "<br>";
+        echo "Achternaam: " . $achternaam . "<br>";
+        echo "E-mail: " . $mail . "<br>";
+        echo "Telefoonnummer: " . $telefoon . "<br>";
+        echo "Vraag: " . $vraag . "<br>";
+    }
 ?>

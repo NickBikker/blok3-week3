@@ -1,5 +1,6 @@
 <html>
 <head>
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -52,7 +53,7 @@
     </div>
     <h1 id="portfolio_title">Werkervaring</h1>
     <hr>
-    <div class="row">
+    <div class="row container-fluid">
         <div class="wrapper col-md-3">
             <h2>Gorinchemse krant</h2>
             <img src="img/krant.png" class="dv">
@@ -78,7 +79,7 @@
         <?php include "contactform.php"?>
     </div>
 </div>
-
+<?php include "footer.php"?>
 </body>
 </html>
 

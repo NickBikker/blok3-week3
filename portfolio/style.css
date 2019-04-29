@@ -53,7 +53,7 @@ a{
 }
 
 .gallerij{
-    height: 370px;
+
 }
 
 .wrapper{
@@ -78,4 +78,10 @@ h3{
 .dv{
     height: 245px;
     width: 255px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
 }

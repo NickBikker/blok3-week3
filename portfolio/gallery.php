@@ -1,7 +1,7 @@
 <div class="gallerij">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="thumbnail">
                     <img src="img/darksouls.png" alt="Browser game" style="width:100%">
                     <div class="caption">
@@ -9,7 +9,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="thumbnail">
                     <img src="img/lingo.png" alt="Volledig werkende lingo" style="width:100%">
                     <div class="caption">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="thumbnail">
                     <img src="img/handy.png" alt="bedrijfs website" style="width:100%">
                     <div class="caption">
