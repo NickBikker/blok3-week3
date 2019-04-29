@@ -10,7 +10,7 @@
 <body>
 <?php include "navbar.php"?>
 <?php include "carousel.php"?>
-<div class="aboutme-text row" >
+<div class="aboutme-text row" id="aboutme" >
     <div class="col-md-4">
     <img src="img/aboutpic.jpg" id="loops">
     </div>
@@ -22,10 +22,12 @@
     </div>
 
 </div>
-<div class="portfolio_section">
+<div class="portfolio_section" id="portfolio_gallery">
     <h1 id="portfolio_title">Portfolio</h1>
     <hr>
     <?php include "gallery.php"?>
+</div>
+<div id="werk_school">
     <h1 id="portfolio_title">Opleidingen</h1>
     <hr>
     <div class="row">
@@ -48,7 +50,35 @@
             <p id="text">Van 2018-Heden</p>
         </div>
     </div>
+    <h1 id="portfolio_title">Werkervaring</h1>
+    <hr>
+    <div class="row">
+        <div class="wrapper col-md-3">
+            <h2>Gorinchemse krant</h2>
+            <img src="img/krant.png" class="dv">
+            <h3>Krantenbezorger</h3>
+            <p id="text">Van 2014-2015</p>
+        </div>
+        <div class="wrapper col-md-3">
+            <h2>Jumbo Gorinchem</h2>
+            <img src="img/jumbo.png" class="dv">
+            <h3>Vakkenvuller</h3>
+            <p id="text">Van 2015-2018</p>
+        </div>
+        <div class="wrapper col-md-3">
+            <h2>Domino's</h2>
+            <img src="img/pizza.png" class="dv">
+            <h3>Pizza bezorger</h3>
+            <p id="text">Van 2018-Heden</p>
+        </div>
+    </div>
 </div>
+<div class="row">
+    <div class="col-md-12" id="contantme"  align="center">
+        <?php include "contactform.php"?>
+    </div>
+</div>
+
 </body>
 </html>
 

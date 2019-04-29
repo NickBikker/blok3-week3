@@ -1,9 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 .nav-item{
     display: inline-block;
     color: lightgray;
     margin-right: 15px;
     border: lightgray;
     font-size: 20px;
+    text-decoration: none;
+}
+
+div>ul.nav-bar>li.nav-item>a{
+    color:lightgray;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:purple;
 }
 
 .aboutme-text{

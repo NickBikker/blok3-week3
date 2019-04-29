@@ -1,5 +1,5 @@
 <?php
-$hour = Date("H")+1;
+$hour = Date("H")+2;
 $min = Date("i");
 ?>
 <div class="pos-f-t sticky-top">
@@ -12,10 +12,10 @@ $min = Date("i");
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
             <ul class="nav-bar">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">About me</li>
-                <li class="nav-item">Portfolio</li>
-                <li class="nav-item">Contact</li>
+                <li class="nav-item" >Home</li>
+                <li class="nav-item"><a  href="#portfolio_gallery">Portfolio</a></li>
+                <li class="nav-item"><a  href="#werk_school">Werk & School</a></li>
+                <li class="nav-item"><a  href="#contantme">Contact</a></li>
             </ul>
         </div>
     </div>
